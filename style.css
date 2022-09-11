@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family:fira Code;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid black;
+    width:100%;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    
+}
+.container #input{
+    border: 0px solid black;
+    width:100%;
+    margin: auto;
+    font-size:40px;
+    
+}
+.container #input:focus{
+    outline:none;
+}
+.container::placeholder{
+    font-size: 2rem;
+
+}
+
+.container #buttontodo{
+    border: 0px solid black;
+    width:30%;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    height:100%;
+    font-size:40px;
+}
+.todolistcontainer{
+    border:1px solid black;
+    width:80%;
+    height: 80%;
+    margin-top:12px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    background-color: skyblue;
+
+}
+.todotask{
+    font-size:150%;
+    width:30%;
+    align-self: center;
+    margin: auto;
+
+}
+.checkbox{
+    width:8%;
+}
+.checkbox:checked{
+   accent-color: blue;
+}
+.crossicon{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width:12%;
+    font-size:50px;
+}
